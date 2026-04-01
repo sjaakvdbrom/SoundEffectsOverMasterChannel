@@ -1,0 +1,7 @@
+## Interface: 120001
+## Title: SoundEffectsOverMasterChannel
+## Notes: Play certain sounds over the master channel instead of sound effects
+## Author: Sjaakvdbrom
+## Version: 1.0
+
+SoundEffectsOverMasterChannel.lua
