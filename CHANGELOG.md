@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.1
+
+- Add changelog
+
 ## 1.1.0
 
 - Added bloodlust sound effects.
