@@ -8,6 +8,8 @@ If you are like me and you would like to play with only the most essential sound
 
 ## Supported sounds
 * LFG (Dungeon, Raid, premade) invites
+* Bloodlust effects
+  * Fury of the aspects currently plays the bloodlust sound since I cannot find the correct one.
 
 ## Adding new sounds
 If you would like me to add a sound you can [create an issue](../../issues/new). There is no gaurantee it will be added however.
