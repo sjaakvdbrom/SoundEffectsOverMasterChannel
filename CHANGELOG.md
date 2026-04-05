@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.2
+
+- Adjust versioning
+
 ## 1.1.1
 
 - Add changelog

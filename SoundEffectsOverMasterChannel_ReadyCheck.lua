@@ -13,6 +13,7 @@ readyCheckEventFrame:RegisterEvent("LFG_LIST_APPLICATION_STATUS_UPDATED")
 
 readyCheckEventFrame:SetScript("OnEvent", function(_, event, ...)
     if event == "PLAYER_LOGIN" then
+        SEMC.InitializeSettings()
         SEMC.RefreshSFXState(true)
         return
     end
@@ -27,7 +28,7 @@ readyCheckEventFrame:SetScript("OnEvent", function(_, event, ...)
 
     if event == "LFG_LIST_APPLICATION_STATUS_UPDATED" then
         local _, newStatus = ...
-        if not SEMC.Runtime.isSFXEnabled and newStatus == "invited" then
+        if not SEMC.Runtime.isSFXEnabled and SEMC.IsSoundEnabled("readycheck") and newStatus == "invited" then
             SEMC.PlaySoundOnMaster(READY_CHECK_SOUNDKIT)
         end
     end

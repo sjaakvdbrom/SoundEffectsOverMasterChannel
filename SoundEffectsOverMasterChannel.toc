@@ -2,7 +2,8 @@
 ## Title: SoundEffectsOverMasterChannel
 ## Notes: Play certain sounds over the master channel instead of sound effects
 ## Author: Sjaakvdbrom
-## Version: 1.1
+## Version: @project-version@
+## SavedVariables: SEMCDB
 
 SoundEffectsOverMasterChannel.lua
 SoundEffectsOverMasterChannel_ReadyCheck.lua

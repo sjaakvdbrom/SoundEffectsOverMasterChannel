@@ -90,6 +90,10 @@ local function PlayLustAlert(satedDebuffSpellID)
         return
     end
 
+    if not SEMC.IsSoundEnabled("bloodlust") then
+        return
+    end
+
     local now = GetTime()
     if now < nextAllowedLustPlayTime then
         return
@@ -129,6 +133,7 @@ lustEventFrame:RegisterUnitEvent("UNIT_AURA", "player")
 
 lustEventFrame:SetScript("OnEvent", function(_, event)
     if event == "PLAYER_LOGIN" then
+        SEMC.InitializeSettings()
         SEMC.RefreshSFXState(false)
         UpdateLustAlertStateFromAuras()
         return
