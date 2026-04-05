@@ -1,2 +1,2 @@
-1.1.4
-- Fix changelog
+1.1.5
+- Adjust readme

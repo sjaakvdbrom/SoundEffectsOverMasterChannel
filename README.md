@@ -24,10 +24,3 @@ Aliases are supported. For example: `lust`, `heroism`, and `timewarp` map to `bl
 
 ## Adding new sounds
 If you would like me to add a sound you can [create an issue](../../issues/new). There is no gaurantee it will be added however.
-
-## Release and versioning
-- Curse/WowAce packaging reads `.pkgmeta` and `CHANGELOG.md`.
-- `SoundEffectsOverMasterChannel.toc` uses `## Version: @project-version@`, which is replaced during packaging.
-- Create a git tag for each release (for example `v1.1.2`). The tag drives the packaged addon version.
-- Add a matching heading in `CHANGELOG.md` (for example `## 1.1.2`) before tagging.
-
