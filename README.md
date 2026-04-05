@@ -13,14 +13,12 @@ If you are like me and you would like to play with only the most essential sound
 
 ## Slash commands
 * `/semc list` - show all sound toggles and their current state.
-* `/semc status` - same as list.
-* `/semc status bloodlust` - show one sound state.
-* `/semc on bloodlust` - enable bloodlust sounds.
-* `/semc off bloodlust` - disable bloodlust sounds.
-* `/semc on readycheck` - enable LFG invite ready check sound.
-* `/semc off readycheck` - disable LFG invite ready check sound.
+* `/semc status <status>` - show current status state.
+* `/semc on|off <status>` - toggle status state.
 
-Aliases are supported. For example: `lust`, `heroism`, and `timewarp` map to `bloodlust`; `lfg` maps to `readycheck`.
+### Available statusses
+* `lfg`
+* `bloodlust`
 
 ## Adding new sounds
 If you would like me to add a sound you can [create an issue](../../issues/new). There is no gaurantee it will be added however.
